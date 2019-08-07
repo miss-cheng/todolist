@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- 以上是引入的bootstrap的组件 -->
+    <style>
+        a {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: none;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        header {
+            text-align: center;
+            height: 100px;
+            line-height: 100px;
+            /* background-color: brown; */
+        }
+        
+        .home a {
+            padding: 6px;
+            padding-bottom: 15px;
+            margin-right: 6px;
+            background-color: #84ae28;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 700;
+            color: #fff;
+            border-radius: 5px;
+        }
+        
+        .nav ul {
+            padding: 0;
+            width: 100%;
+        }
+        
+        .nav li {
+            float: left;
+            height: 16px;
+        }
+        
+        .nav li a {
+            /* display: block; */
+            padding-right: 22px;
+            padding-left: 15px;
+            color: #a8a9a9;
+            border-right: 1px solid #333
+        }
+        
+        .search {
+            position: relative;
+        }
+        
+        .search input {
+            width: 100%;
+            height: 30px;
+            border-radius: 10px;
+            outline: none;
+            padding-left: 90px;
+            /* text-align: right; */
+        }
+        
+        .search span {
+            position: absolute;
+            top: 42px;
+            font-size: 18px;
+            left: 10px;
+        }
+        
+        .center-img {
+            /* overflow: hidden; */
+            width: 100%;
+        }
+        
+        .center-img img {
+            width: 100%;
+        }
+        
+        .center-text {
+            width: 1200px;
+            /* background-color: #84ae28; */
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .center-text h1 {
+            margin-top: 75px;
+        }
+        
+        .center-text span {
+            font-weight: 700;
+            color: #666666;
+            display: block;
+            margin-bottom: 50px;
+        }
+        
+        .center-text p {
+            margin: 0 auto;
+            width: 885px;
+            text-align: left;
+            color: #666666
+        }
+        
+        .yunduo {
+            width: 1000px;
+            margin: 0 auto;
+            /* background-color: #84ae28; */
+            margin-top: 40px;
+        }
+        
+        .yunduo img {
+            width: 100%;
+        }
+        
+        .shucai {
+            background-color: #e7f3e8;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 以上是头部部分 -->
+
+    <header>
+        <div class="container">
+            <div class="row" style="height: 100px">
+                <div class="col-md-2" style="padding: 0">
+                    <div class="logo">
+                        <a href="#"><img src="img/logo.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-2" style="padding-right: 0">
+                    <div class="home">
+                        <a href="#">优野到家</a>
+                        <a href="#">优野蔬菜配送</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6" style="padding: 0">
+                    <div class="nav">
+                        <ul>
+                            <li>
+                                <a href="#">首页</a>
+                            </li>
+                            <li>
+                                <a href="#">了解优野V</a>
+                            </li>
+                            <li>
+                                <a href="#">产品服务V</a>
+                            </li>
+                            <li>
+                                <a href="#">销售中心V</a>
+                            </li>
+                            <li>
+                                <a href="#">新闻中心V</a>
+                            </li>
+                            <li>
+                                <a href="#" style="border: none">联系我们V</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2" style="padding: 0">
+                    <div class="search">
+                        <span class="glyphicon glyphicon-search"></span>
+                        <input type="text" placeholder="搜索本站内容">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- 以上是头部部分 -->
+    <!-- 中间轮播图 -->
+    <div class="center-img">
+        <a href="#"><img src="img/bg1.jpg" alt=""></a>
+    </div>
+    <!-- 中间轮播图 -->
+
+    <!-- 中间部分的公司及产品优势介绍 -->
+    <div class="center-text">
+        <h1>致力于中国安全健康蔬菜高端产品</h1>
+        <span>ABOUT YOUYE</span>
+        <p>福州优野生态农业有限公司与2013年6月成立，注册资金1000万人民币，是一家专业提供无公害绿色标准蔬菜的农业公司，总公司位于福州，为福建省领先品牌的蔬菜公司，我公司致力于为消费者提供安全、新鲜、健康的蔬菜、业已成为山姆、沃尔玛、家乐福、新华都、大润发、麦德龙、永辉超市、天虹、华润万家、人人乐、冠超、物美、嘉荣的核心蔬菜供应商。</p>
+        <div class="yunduo">
+            <img src="img/yunduo_02.jpg" alt="">
+        </div>
+    </div>
+    <!-- 中间部分的公司及产品优势介绍 -->
+    <div class="shucai">
+        1
+    </div>
+</body>
+
+</html>
